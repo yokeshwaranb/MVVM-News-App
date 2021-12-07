@@ -2,10 +2,10 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/bottom_navigation_menu"
-    app:startDestination="@id/breakingNewsFragment2">
+    app:startDestination="@id/breakingNewsFragment">
 
     <fragment
-        android:id="@+id/breakingNewsFragment2"
+        android:id="@+id/breakingNewsFragment"
         android:name="com.training.mynewsapp.fragments.BreakingNewsFragment"
         android:label="BreakingNewsFragment" >
         <action
@@ -14,7 +14,7 @@
     </fragment>
 
     <fragment
-        android:id="@+id/savedNewsFragment2"
+        android:id="@+id/savedNewsFragment"
         android:name="com.training.mynewsapp.fragments.SavedNewsFragment"
         android:label="SavedNewsFragment" >
         <action
@@ -23,7 +23,7 @@
     </fragment>
 
     <fragment
-        android:id="@+id/searchNewsFragment2"
+        android:id="@+id/searchNewsFragment"
         android:name="com.training.mynewsapp.fragments.SearchNewsFragment"
         android:label="SearchNewsFragment" >
         <action

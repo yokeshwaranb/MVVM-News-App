@@ -25,6 +25,6 @@ public class NewsActivity extends AppCompatActivity {
                 (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.newsNavHostFragment);
         NavController navController = navHostFragment.getNavController();
 
-        NavigationUI.setupWithNavController(bottomNavigationView,navController);
+        NavigationUI.setupWithNavController(bottomNavigationView, navController);
     }
 }
