@@ -1,8 +1,15 @@
 package com.training.mynewsapp;
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
 import javax.crypto.spec.PSource;
 
+@Entity(tableName = "articles")
 public class Article {
+
+    @PrimaryKey(autoGenerate = true)
+    private int id;
     private String author;
     private String content;
     private String description;
