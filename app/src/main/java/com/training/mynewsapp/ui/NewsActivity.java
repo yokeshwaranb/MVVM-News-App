@@ -1,4 +1,4 @@
-package com.training.mynewsapp;
+package com.training.mynewsapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -8,7 +8,9 @@ import androidx.navigation.ui.NavigationUI;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.training.mynewsapp.R;
 
+//Api key: 569b8ba5d3a742a8902aa2ac0f7d3218
 public class NewsActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;

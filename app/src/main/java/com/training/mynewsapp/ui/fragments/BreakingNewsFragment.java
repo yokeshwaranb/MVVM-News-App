@@ -1,9 +1,4 @@
-package com.training.mynewsapp.fragments;
-
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+package com.training.mynewsapp.ui.fragments;
 
 import androidx.fragment.app.Fragment;
 
