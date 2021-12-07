@@ -1,11 +1,9 @@
-package com.training.mynewsapp;
+package com.training.mynewsapp.models;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import javax.crypto.spec.PSource;
-
-@Entity(tableName = "articles")
+@Entity(tableName = "articles_table")
 public class Article {
 
     @PrimaryKey(autoGenerate = true)
@@ -19,7 +17,8 @@ public class Article {
     private String url;
     private String urlToImage;
 
-    public Article(String author, String content, String description, String publishedAt, Source source, String title, String url, String urlToImage) {
+    public Article(int id, String author, String content, String description, String publishedAt, Source source, String title, String url, String urlToImage) {
+        this.id = id;
         this.author = author;
         this.content = content;
         this.description = description;
@@ -28,6 +27,14 @@ public class Article {
         this.title = title;
         this.url = url;
         this.urlToImage = urlToImage;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getAuthor() {

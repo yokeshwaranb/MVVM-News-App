@@ -7,7 +7,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.training.mynewsapp.Article;
+import com.training.mynewsapp.models.Article;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public interface ArticleDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     public long upsert(Article article);
 
-    @Query("SELECT * FROM articles")
+    @Query("SELECT * FROM articles_table")
     public LiveData<List<Article>> getAllArticles();
 
     @Delete

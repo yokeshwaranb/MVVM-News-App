@@ -1,4 +1,4 @@
-package com.training.mynewsapp;
+package com.training.mynewsapp.models;
 
 public class Source {
     private Object id;

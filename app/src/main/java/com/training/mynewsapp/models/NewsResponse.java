@@ -1,4 +1,4 @@
-package com.training.mynewsapp;
+package com.training.mynewsapp.models;
 
 import java.util.List;
 

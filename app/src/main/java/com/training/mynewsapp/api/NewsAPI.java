@@ -1,6 +1,6 @@
 package com.training.mynewsapp.api;
 
-import com.training.mynewsapp.NewsResponse;
+import com.training.mynewsapp.models.NewsResponse;
 
 import retrofit2.Response;
 import retrofit2.http.GET;
